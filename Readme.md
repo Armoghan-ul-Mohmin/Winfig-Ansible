@@ -49,7 +49,7 @@ Deploy WinFig instantly using our automated bootstrap process:
 
 ```powershell
 # Automated Bootstrap Deployment
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Armoghan-ul-Mohmin/Winfig-Ansible/main/bootstrap.ps1" | Invoke-Expression
+Invoke-RestMethod -Uri "https://raw.githubusercontent.com/Armoghan-ul-Mohmin/Winfig-Ansible/main/bootstrap.ps1" | Invoke-Expression
 ```
 
 > � **Note**: The bootstrap process automatically handles dependency installation and system configuration.
@@ -76,7 +76,7 @@ Streamlined deployment for rapid environment setup:
 
 ```powershell
 # Direct Bootstrap Execution
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Armoghan-ul-Mohmin/Winfig-Ansible/main/bootstrap.ps1" | Invoke-Expression
+Invoke-RestMethod -Uri "https://raw.githubusercontent.com/Armoghan-ul-Mohmin/Winfig-Ansible/main/bootstrap.ps1" | Invoke-Expression
 ```
 
 ### 🔧 Method 2: Manual Installation
